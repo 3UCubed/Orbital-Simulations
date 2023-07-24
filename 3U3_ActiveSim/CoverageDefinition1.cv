@@ -1,0 +1,188 @@
+stk.v.12.0
+WrittenBy    STK_v12.5.0
+
+BEGIN CoverageDefinition
+
+    Name		 CoverageDefinition1
+
+    BEGIN GridDefinition
+
+        VersionIndicator		 20080103
+        BEGIN LatitudeBounds
+            MinLatitude		 59.99999999999999
+            MaxLatitude		 85
+        END LatitudeBounds
+        LatResolution		  2.0000000000000000e+00
+        LonResolution		  2.0000000000000000e+00
+        UsePolarRegions		 Yes
+        GridClass		 Facility
+        SeedInstance		 Facility/Facility1
+        UseCopyOfSeed		 Yes
+        PointLocationMethod		 EqualArea
+        CustomPtAltMethod		 ValueFromFile
+        CentralBody		 Earth
+        GroundAltMethod		 UseAltType
+        GroundAlt		 0
+        AltitudeMethod		 Altitude
+        BEGIN AltitudeList
+            0.000000
+        END AltitudeList
+
+    END GridDefinition
+
+    BEGIN AccessDefinition
+
+        DataRetention		 AllData
+        Convergence		 0.005
+        AbsValueConvergence		 1e-14
+        RelValueConvergence		 1e-08
+        MaxTimeStep		 360
+        MinTimeStep		 0.01
+        UseLightTimeDelay		 No
+        TimeSense		 PerAsset
+        DetectEventsUsingSamplesOnly		 No
+        AutoRecompute		 Yes
+        UseAllAssetAccess		 No
+        AssetSatisType		 AtLeast
+        AssetSatisThreshold		 1
+        AccessSaveMode		 SaveWith
+        RegionAccessAccel		 Auto
+
+    END AccessDefinition
+
+    BEGIN AssetList
+
+        Satellite/Satellite0		 Active
+        Required		 No
+        Satellite/Satellite1		 Active
+        Required		 No
+        Satellite/Satellite10		 Active
+        Required		 No
+        Satellite/Satellite11		 Active
+        Required		 No
+        Satellite/Satellite12		 Active
+        Required		 No
+        Satellite/Satellite13		 Active
+        Required		 No
+        Satellite/Satellite14		 Active
+        Required		 No
+        Satellite/Satellite15		 Active
+        Required		 No
+        Satellite/Satellite16		 Active
+        Required		 No
+        Satellite/Satellite17		 Active
+        Required		 No
+        Satellite/Satellite18		 Active
+        Required		 No
+        Satellite/Satellite19		 Active
+        Required		 No
+        Satellite/Satellite2		 Active
+        Required		 No
+        Satellite/Satellite20		 Active
+        Required		 No
+        Satellite/Satellite21		 Active
+        Required		 No
+        Satellite/Satellite22		 Active
+        Required		 No
+        Satellite/Satellite23		 Active
+        Required		 No
+        Satellite/Satellite24		 Active
+        Required		 No
+        Satellite/Satellite3		 Active
+        Required		 No
+        Satellite/Satellite4		 Active
+        Required		 No
+        Satellite/Satellite5		 Active
+        Required		 No
+        Satellite/Satellite6		 Active
+        Required		 No
+        Satellite/Satellite7		 Active
+        Required		 No
+        Satellite/Satellite8		 Active
+        Required		 No
+        Satellite/Satellite9		 Active
+        Required		 No
+
+    END AssetList
+
+    BEGIN Interval
+
+        AccStart		 18 Jan 2021 17:00:00.000000000
+        AccStop		 25 Jan 2021 17:00:00.000000000
+        UseScenarioInterval		 No
+        AccIntervalPtr		
+        BEGIN EVENTINTERVAL
+            EventInterval		
+            BEGIN EVENTINTERVAL
+                Type		 EVENTINTERVAL_LINKTO
+                Name		 AnalysisInterval
+                AbsolutePath		 Scenario
+            END EVENTINTERVAL
+            IntervalState		 Implicit
+        END EVENTINTERVAL
+
+
+    END Interval
+
+    BEGIN SavedAccesses
+        FileName		 CoverageDefinition1.cva
+    END SavedAccesses
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                GridMarkerStyle		 1
+                GridColor		 #00ffff
+                ProgressColor		 #ffff00
+                SatisfactionColor		 #ff00ff
+                GridTranslucency		 0.5
+                SatisfactionTranslucency		 0.7000000000000001
+
+            END Attributes
+
+            BEGIN Graphics
+
+                Show		 Yes
+                ShowGrid		 Yes
+                ShowRegions		 No
+                ShowRegionsText		 No
+                ShowPoints		 Yes
+                FillPoints		 No
+                ShowProgress		 Yes
+                ShowSatisfaction		 No
+
+            END Graphics
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+    BEGIN SubObjects
+
+    END SubObjects
+
+END CoverageDefinition
+

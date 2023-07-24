@@ -1,0 +1,95 @@
+stk.v.12.0
+WrittenBy    STK_v12.5.0
+
+BEGIN AreaTarget
+
+    Name		 AreaTarget1
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 On
+        EcfLatitude		  7.2507869210257709e+01
+        EcfLongitude		  4.5000000000000000e+01
+        EcfAltitude		  6.5289603932915226e+00
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        AreaValue		  0.0000000000000000e+00
+        NumberOfPolygonPts		 3
+
+        BEGIN PolygonPoints
+
+             8.5000000000000000e+01  4.5000000000000000e+01  0.0000000000000000e+00
+             5.9999999999999993e+01  4.5000000000000000e+01  0.0000000000000000e+00
+             8.5000000000000000e+01  4.5000000000000000e+01  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #ffff00
+                PolygonColor		 #ffff00
+                LabelColor		 #ffff00
+                LineStyle		 0
+                LineWidth		 1
+                FillTranslucency		 0.5
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 Off
+                ShowLabel		 On
+                Filled		 Off
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

@@ -1,0 +1,51 @@
+STK.V.9.0
+WrittenBy    StandardObjectCatalog
+BEGIN Satellite
+	Name		Aissat1_36797
+BEGIN VehiclePath
+	CentralBody				Earth
+	BEGIN SGP4
+		VersionIndicator    20080918
+		SSCNumber           36797
+		TimeStep            60.0
+		IntlDesignator      2010-035C
+		CommonName          AISSat 1
+	END SGP4
+END VehiclePath
+BEGIN Attitude
+	BEGIN Profile
+		BEGIN ECFVVLH
+		END ECFVVLH
+	END Profile
+END Attitude
+BEGIN Extensions
+	BEGIN Desc
+		ShortText 8
+AISSat 1
+		LongText 640
+AISSat 1
+CatalogNumber: 36797
+InternationalID: 2010-035C
+Civilian satellite
+Status             	: Active
+Classification Notes	: AISSAT-1's mission is to demonstrate the use of a ship-borne Automatic Identification System (AIS) for tracking ships.
+MISSION: 
+  Mission Class: TechnologyDevelopment
+
+
+ORBIT INFORMATION:
+
+Launch Date   	: 2010-07-12
+Launch notes  	: 
+
+PLATFORM NOTES:
+Shape: 
+ShapeType: RectangularPrism
+   0.2 [Meters] {Width}
+   0.2 [Meters] {Length}
+   0.2 [Meters] {Height}
+
+https://sdf10.agi.com/content/files/STK Standard Objects/Spacecraft/AISSat/AGI.Data.StandardObjectCatalog.Stk.StkObjectData.sa
+	END Desc
+END Extensions
+END Satellite

@@ -1,0 +1,68 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.5.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "3U3_PassiveSim AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/3U3_PassiveSim" Type = "IntervalList">
+                <Interval Name = "3U3_PassiveSim AvailabilityIntervals" StartTime = "18 Jan 2021 17:00:00.000" StopTime = "25 Jan 2021 17:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-3U3CubeSat-Sensor-ERPA-To-AreaTarget-NorthCusp AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/3U3_PassiveSim/Satellite/3U3CubeSat/Sensor/ERPA;/Application/STK/Scenario/3U3_PassiveSim/AreaTarget/NorthCusp" Type = "IntervalList" />
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/3U3_PassiveSim/Satellite/3U3CubeSat;/Application/STK/Scenario/3U3_PassiveSim/Place/Place1" Type = "IntervalList">
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "18 Jan 2021 23:06:06.834" StopTime = "18 Jan 2021 23:12:01.475" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "18 Jan 2021 23:33:00.245" StopTime = "18 Jan 2021 23:38:47.917" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 00:41:28.285" StopTime = "19 Jan 2021 00:46:29.540" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 10:03:04.573" StopTime = "19 Jan 2021 10:10:08.818" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 11:14:14.931" StopTime = "19 Jan 2021 11:18:08.097" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 11:41:11.754" StopTime = "19 Jan 2021 11:46:25.377" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 12:50:31.472" StopTime = "19 Jan 2021 12:52:29.508" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 23:09:41.791" StopTime = "19 Jan 2021 23:15:36.633" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "19 Jan 2021 23:36:44.457" StopTime = "19 Jan 2021 23:42:26.148" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "20 Jan 2021 00:45:11.841" StopTime = "20 Jan 2021 00:50:03.346" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "20 Jan 2021 10:06:52.622" StopTime = "20 Jan 2021 10:13:57.249" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "20 Jan 2021 11:17:34.140" StopTime = "20 Jan 2021 11:22:11.818" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "20 Jan 2021 11:45:04.895" StopTime = "20 Jan 2021 11:50:04.306" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "20 Jan 2021 23:13:17.640" StopTime = "20 Jan 2021 23:19:12.046" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "20 Jan 2021 23:40:32.569" StopTime = "20 Jan 2021 23:46:01.505" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 00:48:55.851" StopTime = "21 Jan 2021 00:53:36.572" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 10:10:43.407" StopTime = "21 Jan 2021 10:17:44.218" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 11:21:00.340" StopTime = "21 Jan 2021 11:26:07.928" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 11:48:59.282" StopTime = "21 Jan 2021 11:53:42.264" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 14:24:27.056" StopTime = "21 Jan 2021 14:24:36.922" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 21:45:04.446" StopTime = "21 Jan 2021 21:46:18.629" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 23:16:54.242" StopTime = "21 Jan 2021 23:22:46.654" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "21 Jan 2021 23:44:25.007" StopTime = "21 Jan 2021 23:49:33.538" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 00:52:40.323" StopTime = "22 Jan 2021 00:57:09.285" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 10:14:34.900" StopTime = "22 Jan 2021 10:21:29.425" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 11:24:31.032" StopTime = "22 Jan 2021 11:29:58.583" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 11:52:54.018" StopTime = "22 Jan 2021 11:57:18.345" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 21:47:35.346" StopTime = "22 Jan 2021 21:50:50.775" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 23:20:32.072" StopTime = "22 Jan 2021 23:26:21.791" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "22 Jan 2021 23:48:22.629" StopTime = "22 Jan 2021 23:53:01.384" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 00:56:25.447" StopTime = "23 Jan 2021 01:00:40.957" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 10:18:27.857" StopTime = "23 Jan 2021 10:25:14.576" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 11:28:05.199" StopTime = "23 Jan 2021 11:33:44.841" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 11:56:50.039" StopTime = "23 Jan 2021 12:00:54.384" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 21:50:39.015" StopTime = "23 Jan 2021 21:54:50.810" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 22:18:08.216" StopTime = "23 Jan 2021 22:19:35.226" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 23:24:09.903" StopTime = "23 Jan 2021 23:29:56.998" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "23 Jan 2021 23:52:27.242" StopTime = "23 Jan 2021 23:56:23.222" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 01:00:12.471" StopTime = "24 Jan 2021 01:04:11.658" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 08:48:20.009" StopTime = "24 Jan 2021 08:49:56.937" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 10:22:20.643" StopTime = "24 Jan 2021 10:28:59.976" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 11:31:42.321" StopTime = "24 Jan 2021 11:37:27.245" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 12:00:47.101" StopTime = "24 Jan 2021 12:04:28.832" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 21:53:53.412" StopTime = "24 Jan 2021 21:58:40.199" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 22:20:51.953" StopTime = "24 Jan 2021 22:24:05.041" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 23:27:48.822" StopTime = "24 Jan 2021 23:33:31.829" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "24 Jan 2021 23:56:43.685" StopTime = "24 Jan 2021 23:59:34.201" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "25 Jan 2021 01:03:59.621" StopTime = "25 Jan 2021 01:07:41.189" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "25 Jan 2021 08:50:42.522" StopTime = "25 Jan 2021 08:54:41.915" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "25 Jan 2021 10:26:13.415" StopTime = "25 Jan 2021 10:32:43.512" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "25 Jan 2021 11:35:22.144" StopTime = "25 Jan 2021 11:41:06.066" />
+                <Interval Name = "Satellite-3U3CubeSat-To-Place-Place1 AccessIntervals" StartTime = "25 Jan 2021 12:04:46.039" StopTime = "25 Jan 2021 12:07:59.686" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/3U3_PassiveSim" GlobalStartOffset = "0.000000" GlobalStartTime = "18 Jan 2021 17:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "25 Jan 2021 17:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

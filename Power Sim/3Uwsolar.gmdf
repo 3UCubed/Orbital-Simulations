@@ -1,0 +1,18 @@
+{
+    "AGI_stk_metadata": {
+        "solarPanelGroups": [
+            {
+                "name": "CubeSat",
+                "efficiency": 30,
+                "modelNodes": [
+                    "XMinus",
+                    "XPlus",
+                    "YMinus",
+                    "YPlus",
+                    "ZMinus",
+                    "ZPlus"
+                ]
+            }
+        ]
+    }
+}

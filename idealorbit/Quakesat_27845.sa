@@ -1,0 +1,52 @@
+STK.V.9.0
+WrittenBy    StandardObjectCatalog
+BEGIN Satellite
+	Name		Quakesat_27845
+BEGIN VehiclePath
+	CentralBody				Earth
+	BEGIN SGP4
+		VersionIndicator    20080918
+		SSCNumber           27845
+		TimeStep            60.0
+		IntlDesignator      2003-031F
+		CommonName          QuakeSat
+	END SGP4
+END VehiclePath
+BEGIN Attitude
+	BEGIN Profile
+		BEGIN ECFVVLH
+		END ECFVVLH
+	END Profile
+END Attitude
+BEGIN Extensions
+	BEGIN Desc
+		ShortText 8
+QuakeSat
+		LongText 573
+QuakeSat
+CatalogNumber: 27845
+InternationalID: 2003-031F
+Civilian satellite
+Status             	: NotActive
+MISSION: 
+  Mission Class: TechnologyDevelopment
+   Mission Types: CubeSat
+
+
+ORBIT INFORMATION:
+
+Launch Date   	: 2003-06-30
+Launch notes  	: 
+
+PLATFORM NOTES:
+Launch Mass          		: 4.5 [Kilograms]
+Shape: 
+ShapeType: ThreeUnitCubeSat
+   0.1 [Meters] {Width}
+   0.1 [Meters] {Length}
+   0.348 [Meters] {Height}
+
+https://sdf10.agi.com/content/files/STK Standard Objects/Spacecraft/QuakeSat/AGI.Data.StandardObjectCatalog.Stk.StkObjectData.sa
+	END Desc
+END Extensions
+END Satellite

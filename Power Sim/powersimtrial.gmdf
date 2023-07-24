@@ -1,0 +1,50 @@
+{
+    "AGI_stk_metadata": {
+        "solarPanelGroups": [
+            {
+                "name": "MinusX", 
+                "efficiency": 30,
+                "modelNodes": [
+                    "1"
+                ]
+                
+            },
+            {
+                "name": "MinusY",
+                "efficiency": 30,
+                "modelNodes": [
+                    "2"
+                ]
+                
+            },
+            {
+                "name": "MinusZ",
+                "efficiency": 30,
+                "modelNodes":[
+                    "3"
+                ]
+            },
+            {
+              "name": "PlusX",
+              "efficiency": 30,
+              "modelNodes": [
+                    "4"
+              ]  
+            },
+            {
+                "name":"PlusY",
+                "efficiency": 30,
+                "modelNodes": [
+                    "5"
+                ]
+            },
+            {
+                "name": "PlusZ",
+                "efficiency": 30,
+                "modelNodes":[
+                    "6"
+                ]
+            }
+        ] 
+    }    
+}

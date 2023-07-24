@@ -1,0 +1,36 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.5.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "PowerCommSim AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/PowerCommSim" Type = "IntervalList">
+                <Interval Name = "PowerCommSim AvailabilityIntervals" StartTime = "1 Mar 2025 17:00:00.000" StopTime = "1 Mar 2026 17:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/PowerCommSim/Satellite/CubeSat/Sensor/Sensor1/Transmitter/Transmitter2;/Application/STK/Scenario/PowerCommSim/Place/SSUGround/Sensor/Sensor2/Receiver/Receiver2" Type = "IntervalList">
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "1 Mar 2025 23:31:56.610" StopTime = "1 Mar 2025 23:44:05.515" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "2 Mar 2025 01:08:24.837" StopTime = "2 Mar 2025 01:20:03.148" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "2 Mar 2025 11:18:08.925" StopTime = "2 Mar 2025 11:28:12.009" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "2 Mar 2025 12:53:20.482" StopTime = "2 Mar 2025 13:06:04.873" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "2 Mar 2025 14:31:51.689" StopTime = "2 Mar 2025 14:37:57.080" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "2 Mar 2025 22:13:03.372" StopTime = "2 Mar 2025 22:17:01.145" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "2 Mar 2025 23:43:48.531" StopTime = "2 Mar 2025 23:56:21.909" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "3 Mar 2025 01:21:05.607" StopTime = "3 Mar 2025 01:31:53.558" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "3 Mar 2025 11:29:54.359" StopTime = "3 Mar 2025 11:41:00.194" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "3 Mar 2025 13:05:34.648" StopTime = "3 Mar 2025 13:18:01.315" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "3 Mar 2025 14:45:38.414" StopTime = "3 Mar 2025 14:47:55.114" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "3 Mar 2025 22:23:30.548" StopTime = "3 Mar 2025 22:30:20.104" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "3 Mar 2025 23:55:47.045" StopTime = "4 Mar 2025 00:08:35.076" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "4 Mar 2025 01:33:57.776" StopTime = "4 Mar 2025 01:43:36.177" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "4 Mar 2025 11:41:46.738" StopTime = "4 Mar 2025 11:53:37.872" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "4 Mar 2025 13:17:52.131" StopTime = "4 Mar 2025 13:29:51.051" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "4 Mar 2025 22:34:32.041" StopTime = "4 Mar 2025 22:43:08.924" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "5 Mar 2025 00:07:51.958" StopTime = "5 Mar 2025 00:20:45.160" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "5 Mar 2025 01:47:06.010" StopTime = "5 Mar 2025 01:55:06.511" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "5 Mar 2025 11:53:44.285" StopTime = "5 Mar 2025 12:06:06.968" />
+                <Interval Name = "Satellite-CubeSat-Sensor-Sensor1-Transmitter-Transmitter2-To-Place-SSUGround-Sensor-Sensor2-Receiver-Receiver2 AccessIntervals" StartTime = "5 Mar 2025 13:30:13.382" StopTime = "5 Mar 2025 13:41:33.526" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/PowerCommSim" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Mar 2025 17:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "1 Mar 2026 17:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

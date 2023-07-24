@@ -1,0 +1,735 @@
+{
+    "asset": {
+        "generator": "Khronos glTF Blender I/O v1.6.16",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                7
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "XMinus",
+            "extensions": {
+                "AGI_stk_metadata": {
+                    "solarPanelGroupName": "BodySolarPanels"
+                }
+            }
+        },
+        {
+            "mesh": 1,
+            "name": "XPlus",
+            "extensions": {
+                "AGI_stk_metadata": {
+                    "solarPanelGroupName": "BodySolarPanels"
+                }
+            }
+        },
+        {
+            "mesh": 2,
+            "name": "YMinus",
+            "extensions": {
+                "AGI_stk_metadata": {
+                    "solarPanelGroupName": "BodySolarPanels"
+                }
+            }
+        },
+        {
+            "mesh": 3,
+            "name": "YPlus",
+            "extensions": {
+                "AGI_stk_metadata": {
+                    "solarPanelGroupName": "BodySolarPanels"
+                }
+            }
+        },
+        {
+            "mesh": 4,
+            "name": "ZMinus",
+            "extensions": {
+                "AGI_stk_metadata": {
+                    "solarPanelGroupName": "BodySolarPanels"
+                }
+            }
+        },
+        {
+            "mesh": 5,
+            "name": "ZPlus",
+            "extensions": {
+                "AGI_stk_metadata": {
+                    "solarPanelGroupName": "BodySolarPanels"
+                }
+            }
+        },
+        {
+            "children": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "name": "BodySolarPanels",
+            "translation": [
+                0.000002811372723954264,
+                -0.007100656628608704,
+                0.0017551558557897806
+            ]
+        },
+        {
+            "children": [
+                6
+            ],
+            "mesh": 6,
+            "name": "Cube",
+            "translation": [
+                0.0000047636472118028905,
+                0.017117023468017578,
+                0.0028976232279092073
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "name": "SolarMaterial.001",
+            "normalTexture": {
+                "index": 0,
+                "scale": 2.5
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicRoughnessTexture": {
+                    "index": 2
+                }
+            }
+        },
+        {
+            "doubleSided": true,
+            "name": "FrameMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "name": "CircuitBoardMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0.23177050054073334,
+                    0.0036631240509450436,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "BodySolarPanelMesh.006",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "BodySolarPanelMesh.008",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "BodySolarPanelMesh.007",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 8,
+                        "NORMAL": 9,
+                        "TEXCOORD_0": 10
+                    },
+                    "indices": 11,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "BodySolarPanelMesh.009",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 12,
+                        "NORMAL": 13,
+                        "TEXCOORD_0": 14
+                    },
+                    "indices": 15,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "BodySolarPanelMesh.011",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 16,
+                        "NORMAL": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "BodySolarPanelMesh.010",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 20,
+                        "NORMAL": 21,
+                        "TEXCOORD_0": 22
+                    },
+                    "indices": 19,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "CubeSatMesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 23,
+                        "NORMAL": 24,
+                        "TEXCOORD_0": 25
+                    },
+                    "indices": 26,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "POSITION": 27,
+                        "NORMAL": 28,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 30,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "images": [
+        {
+            "mimeType": "image/jpeg",
+            "name": "SolarPanel003_8K_NormalGL.jpg",
+            "uri": "SolarPanel003_8K-JPG/SolarPanel003_8K_NormalGL_jpg.jpg"
+        },
+        {
+            "mimeType": "image/jpeg",
+            "name": "SolarPanel003_8K_Color.jpg",
+            "uri": "SolarPanel003_8K-JPG/SolarPanel003_8K_Color_jpg.jpg"
+        },
+        {
+            "mimeType": "image/png",
+            "name": "SolarPanel003_8K_Metalness.jpg-SolarPanel003_8K_Roughness.jpg",
+            "uri": "SolarPanel003_8K-JPG/SolarPanel003_8K_Metalness_jpg-SolarPanel003_8K_Roughness_jpg.png"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 84,
+            "max": [
+                -0.05268106982111931,
+                0.22307288646697998,
+                0.03534722328186035
+            ],
+            "min": [
+                -0.05268106982111931,
+                -0.1835828423500061,
+                -0.0446527823805809
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 84,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 84,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5123,
+            "count": 210,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 42,
+            "max": [
+                0.052694063633680344,
+                0.2231011688709259,
+                0.036745455116033554
+            ],
+            "min": [
+                0.05269405618309975,
+                -0.18329238891601562,
+                -0.046051014214754105
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 42,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 42,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5123,
+            "count": 84,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 30,
+            "max": [
+                0.039992429316043854,
+                0.22442775964736938,
+                0.04804356396198273
+            ],
+            "min": [
+                -0.0400075763463974,
+                -0.1838279366493225,
+                0.048043541610240936
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 30,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 30,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5123,
+            "count": 60,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 18,
+            "max": [
+                0.039992429316043854,
+                -0.010990351438522339,
+                -0.05735278129577637
+            ],
+            "min": [
+                -0.0400075763463974,
+                -0.18011029064655304,
+                -0.05735278129577637
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 18,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5126,
+            "count": 18,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5123,
+            "count": 36,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 12,
+            "max": [
+                0.039992429316043854,
+                -0.18892733752727509,
+                0.04451264068484306
+            ],
+            "min": [
+                -0.0400075763463974,
+                -0.18892733752727509,
+                -0.05196737125515938
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5126,
+            "count": 12,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 12,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5123,
+            "count": 24,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5126,
+            "count": 12,
+            "max": [
+                0.039992429316043854,
+                0.22891703248023987,
+                0.04335710033774376
+            ],
+            "min": [
+                -0.0400075763463974,
+                0.22891703248023987,
+                -0.05312291532754898
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 12,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 12,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5126,
+            "count": 958,
+            "max": [
+                0.052696872502565384,
+                0.22813297808170319,
+                0.049798719584941864
+            ],
+            "min": [
+                -0.05267826095223427,
+                -0.20236703753471375,
+                -0.05559762567281723
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 958,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 958,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5123,
+            "count": 1800,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.05149523541331291,
+                0.22063298523426056,
+                0.048602376133203506
+            ],
+            "min": [
+                -0.05150476470589638,
+                -0.19486702978610992,
+                -0.05439762398600578
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5123,
+            "count": 84,
+            "type": "SCALAR"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 1008,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1008,
+            "byteOffset": 1008
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 2016
+        },
+        {
+            "buffer": 0,
+            "byteLength": 420,
+            "byteOffset": 2688
+        },
+        {
+            "buffer": 0,
+            "byteLength": 504,
+            "byteOffset": 3108
+        },
+        {
+            "buffer": 0,
+            "byteLength": 504,
+            "byteOffset": 3612
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 4116
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 4452
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 4620
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 4980
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 5340
+        },
+        {
+            "buffer": 0,
+            "byteLength": 120,
+            "byteOffset": 5580
+        },
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 5700
+        },
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 5916
+        },
+        {
+            "buffer": 0,
+            "byteLength": 144,
+            "byteOffset": 6132
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 6276
+        },
+        {
+            "buffer": 0,
+            "byteLength": 144,
+            "byteOffset": 6348
+        },
+        {
+            "buffer": 0,
+            "byteLength": 144,
+            "byteOffset": 6492
+        },
+        {
+            "buffer": 0,
+            "byteLength": 96,
+            "byteOffset": 6636
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 6732
+        },
+        {
+            "buffer": 0,
+            "byteLength": 144,
+            "byteOffset": 6780
+        },
+        {
+            "buffer": 0,
+            "byteLength": 144,
+            "byteOffset": 6924
+        },
+        {
+            "buffer": 0,
+            "byteLength": 96,
+            "byteOffset": 7068
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11496,
+            "byteOffset": 7164
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11496,
+            "byteOffset": 18660
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7664,
+            "byteOffset": 30156
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3600,
+            "byteOffset": 37820
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 41420
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 41900
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 42380
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 42700
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 42868,
+            "uri": "3Uwsolar.bin"
+        }
+    ],
+    "extensions": {
+        "AGI_stk_metadata": {
+            "solarPanelGroups": [
+                {
+                    "name": "BodySolarPanels",
+                    "efficiency": 30
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "AGI_stk_metadata"
+    ]
+}

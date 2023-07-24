@@ -1,0 +1,97 @@
+stk.v.12.0
+WrittenBy    STK_v12.5.0
+
+BEGIN AreaTarget
+
+    Name		 NorthCusp
+
+    BEGIN CentroidPosition
+
+        CentralBody		 Earth
+        AutoCentroid		 Off
+        EcfLatitude		  6.5000000000000000e+01
+        EcfLongitude		  0.0000000000000000e+00
+        EcfAltitude		  5.0776871537189052e+01
+        UseTerrainInfo		 On
+        DisplayCoords		 Geodetic
+
+        AreaType		 Pattern
+        AreaValue		  5.7098854102222578e+12
+        AccessToWhole		 Yes
+        NumberOfPolygonPts		 5
+
+        BEGIN PolygonPoints
+
+             8.5000000000000000e+01  4.5000000000000000e+01  0.0000000000000000e+00
+             5.9999999999999993e+01  4.5000000000000000e+01  0.0000000000000000e+00
+             5.9999999999999993e+01 -4.5000000000000000e+01  0.0000000000000000e+00
+             8.5000000000000000e+01 -4.5000000000000000e+01  0.0000000000000000e+00
+             8.5000000000000000e+01  4.5000000000000000e+01  0.0000000000000000e+00
+
+        END PolygonPoints
+
+        BoundaryType		 GreatArc
+        Granularity		 0.008727
+
+    END CentroidPosition
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor		 #fff0f5
+                PolygonColor		 #fff0f5
+                LabelColor		 #fff0f5
+                LineStyle		 0
+                LineWidth		 5
+                FillTranslucency		 0.29
+                MarkerStyle		 0
+                FontStyle		 0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx		 On
+                Inherit		 On
+                ShowCentroid		 On
+                ShowBoundaryPts		 On
+                ShowLabel		 On
+                Filled		 On
+                SymmetricFill		 Off
+                ShowBoundingRect		 Off
+
+            END Graphics
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+END AreaTarget
+

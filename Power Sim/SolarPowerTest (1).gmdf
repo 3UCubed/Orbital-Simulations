@@ -1,0 +1,16 @@
+ {
+ "AGI_stk_metadata": {
+        "solarPanelGroups": [
+            {
+                "name": "MainPanel",
+                "efficiency": 25,
+                "modelNodes": [
+                    "SolarPanel_A",
+                    "SolarPanel_B",
+                    "SolarPanel_C",
+                    "SolarPanel_D"
+                ]
+            }
+        ]
+    }
+}
