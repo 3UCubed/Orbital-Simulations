@@ -1,0 +1,136 @@
+stk.v.12.0
+WrittenBy    STK_v12.7.1
+
+BEGIN CoverageDefinition
+
+    Name		 SouthCusp
+
+    BEGIN GridDefinition
+
+        VersionIndicator		 20080103
+        BEGIN LatitudeBounds
+            MinLatitude		 -85
+            MaxLatitude		 -59.99999999999999
+        END LatitudeBounds
+        LatResolution		  2.0000000000000000e+00
+        LonResolution		  2.0000000000000000e+00
+        UsePolarRegions		 Yes
+        GridClass		 Target
+        PointLocationMethod		 EqualArea
+        CustomPtAltMethod		 ValueFromFile
+        CentralBody		 Earth
+        GroundAltMethod		 UseAltType
+        GroundAlt		 0
+        AltitudeMethod		 Altitude
+        BEGIN AltitudeList
+            0.000000
+        END AltitudeList
+
+    END GridDefinition
+
+    BEGIN AccessDefinition
+
+        DataRetention		 AllData
+        Convergence		 0.005
+        AbsValueConvergence		 1e-14
+        RelValueConvergence		 1e-08
+        MaxTimeStep		 360
+        MinTimeStep		 0.01
+        UseLightTimeDelay		 No
+        TimeSense		 PerAsset
+        DetectEventsUsingSamplesOnly		 No
+        AutoRecompute		 Yes
+        UseAllAssetAccess		 No
+        AssetSatisType		 AtLeast
+        AssetSatisThreshold		 1
+        AccessSaveMode		 SaveWith
+        RegionAccessAccel		 Auto
+
+    END AccessDefinition
+
+    BEGIN AssetList
+
+        Satellite/Satellite0		 Active
+        Required		 No
+
+    END AssetList
+
+    BEGIN Interval
+
+        AccStart		 1 Jan 2025 16:00:00.000000000
+        AccStop		 1 Jan 2026 16:00:00.000000000
+        UseScenarioInterval		 No
+        AccIntervalPtr		
+        BEGIN EVENTINTERVAL
+            BEGIN Interval
+                Start		 1 Jan 2025 16:00:00.000000000
+                Stop		 1 Jan 2026 16:00:00.000000000
+            END Interval
+            IntervalState		 Explicit
+        END EVENTINTERVAL
+
+
+    END Interval
+
+    BEGIN SavedAccesses
+        FileName		 SouthCusp.cva
+    END SavedAccesses
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                GridMarkerStyle		 1
+                GridColor		 #0ec6ff
+                ProgressColor		 #00ff00
+                SatisfactionColor		 #ffffff
+                GridTranslucency		 0.5
+                SatisfactionTranslucency		 0.7000000000000001
+
+            END Attributes
+
+            BEGIN Graphics
+
+                Show		 No
+                ShowGrid		 Yes
+                ShowRegions		 Yes
+                ShowRegionsText		 No
+                ShowPoints		 Yes
+                FillPoints		 No
+                ShowProgress		 Yes
+                ShowSatisfaction		 No
+
+            END Graphics
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+    BEGIN SubObjects
+
+        Class FigureOfMerit
+
+            SouthCuspFOM		
+
+        END Class
+
+    END SubObjects
+
+END CoverageDefinition
+

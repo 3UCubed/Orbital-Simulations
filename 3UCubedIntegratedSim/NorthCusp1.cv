@@ -1,0 +1,140 @@
+stk.v.12.0
+WrittenBy    STK_v12.7.1
+
+BEGIN CoverageDefinition
+
+    Name		 NorthCusp1
+
+    BEGIN GridDefinition
+
+        VersionIndicator		 20080103
+        BEGIN LatitudeBounds
+            MinLatitude		 59.99999999999999
+            MaxLatitude		 85
+        END LatitudeBounds
+        LatResolution		  2.0000000000000000e+00
+        LonResolution		  2.0000000000000000e+00
+        UsePolarRegions		 Yes
+        GridClass		 Facility
+        SeedInstance		 Facility/MorseHall1
+        UseCopyOfSeed		 No
+        PointLocationMethod		 EqualArea
+        CustomPtAltMethod		 ValueFromFile
+        CentralBody		 Earth
+        GroundAltMethod		 UseAltType
+        GroundAlt		 0
+        AltitudeMethod		 Altitude
+        BEGIN AltitudeList
+            0.000000
+        END AltitudeList
+
+    END GridDefinition
+
+    BEGIN AccessDefinition
+
+        DataRetention		 AllData
+        Convergence		 0.005
+        AbsValueConvergence		 1e-14
+        RelValueConvergence		 1e-08
+        MaxTimeStep		 360
+        MinTimeStep		 0.01
+        UseLightTimeDelay		 No
+        TimeSense		 PerAsset
+        DetectEventsUsingSamplesOnly		 No
+        AutoRecompute		 Yes
+        UseAllAssetAccess		 No
+        AssetSatisType		 AtLeast
+        AssetSatisThreshold		 1
+        AccessSaveMode		 SaveWith
+        RegionAccessAccel		 Auto
+
+    END AccessDefinition
+
+    BEGIN AssetList
+
+        Place/Place1		 Active
+        Required		 No
+
+    END AssetList
+
+    BEGIN Interval
+
+        AccStart		 1 Jan 2025 16:00:00.000000000
+        AccStop		 1 Jan 2026 16:00:00.000000000
+        UseScenarioInterval		 No
+        AccIntervalPtr		
+        BEGIN EVENTINTERVAL
+            EventInterval		
+            BEGIN EVENTINTERVAL
+                Type		 EVENTINTERVAL_LINKTO
+                Name		 AnalysisInterval
+                AbsolutePath		 Scenario
+            END EVENTINTERVAL
+            IntervalState		 Implicit
+        END EVENTINTERVAL
+
+
+    END Interval
+
+    BEGIN SavedAccesses
+        FileName		 NorthCusp1.cva
+    END SavedAccesses
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                GridMarkerStyle		 1
+                GridColor		 #ff0e42
+                ProgressColor		 #fff0f5
+                SatisfactionColor		 #0000ff
+                GridTranslucency		 0.5
+                SatisfactionTranslucency		 0.7000000000000001
+
+            END Attributes
+
+            BEGIN Graphics
+
+                Show		 Yes
+                ShowGrid		 Yes
+                ShowRegions		 Yes
+                ShowRegionsText		 Yes
+                ShowPoints		 Yes
+                FillPoints		 Yes
+                ShowProgress		 Yes
+                ShowSatisfaction		 No
+
+            END Graphics
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+    BEGIN SubObjects
+
+        Class FigureOfMerit
+
+            FigureOfMerit2		
+
+        END Class
+
+    END SubObjects
+
+END CoverageDefinition
+

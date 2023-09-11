@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.7.1">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "3UCubedIntegratedSim AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/3UCubedIntegratedSim" Type = "IntervalList">
+                <Interval Name = "3UCubedIntegratedSim AvailabilityIntervals" StartTime = "1 Jan 2025 16:00:00.000" StopTime = "1 Jan 2026 16:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-UNHGround-To-Satellite-Satellite4 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/3UCubedIntegratedSim/Place/UNHGround;/Application/STK/Scenario/3UCubedIntegratedSim/Satellite/Satellite4" Type = "IntervalList" />
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/3UCubedIntegratedSim" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Jan 2025 16:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "1 Jan 2026 16:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
